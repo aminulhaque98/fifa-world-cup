@@ -5,3 +5,46 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* .containar {
+    margin: 50px 140px;
+} */
+
+/*---------- first section style start --------*/
+.best-player {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    justify-content: center;
+    background-color: #161616;
+
+}
+
+/* .section-title,
+.best-player {
+    width: 80%;
+} */
+.section-title {
+    width: 531px;
+    height: 424px;
+}
+
+.earth {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.section-title p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.favorite-player img {
+    width: 581px;
+    height: 613px;
+    padding-top: 32px;
+}
