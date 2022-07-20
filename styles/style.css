@@ -12,9 +12,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* .containar {
-    margin: 50px 140px;
-} */
+.containar {
+    display: flex;
+}
 
 /*---------- first section style start --------*/
 .best-player {
@@ -76,3 +76,26 @@ body {
 
 /*-------- aside nav end ------- */
 /* -----------Transfer grid styles start --------------- */
+.blog-image {
+    width: 312px;
+    height: 390px;
+    margin: 20px;
+    border: 1px solid#E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-title {
+    padding: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    font-size: 16px;
+    color: grey;
+    padding: 10px;
+
+}
