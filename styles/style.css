@@ -1,3 +1,9 @@
+/* full page  */
+/* * {
+    margin: 0;
+} */
+
+
 /*--------- google font ------------ */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
@@ -17,13 +23,10 @@ body {
     height: 646px;
     justify-content: center;
     background-color: #161616;
+    border-radius: 30px;
 
 }
 
-/* .section-title,
-.best-player {
-    width: 80%;
-} */
 .section-title {
     width: 531px;
     height: 424px;
@@ -48,3 +51,28 @@ body {
     height: 613px;
     padding-top: 32px;
 }
+
+/* ----------first section style end-------- */
+/* ---------aside nav start --------- */
+.side-nav {
+    /* position: fixed; */
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.side-nav a {
+    display: block;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: turquoise;
+    margin-left: 32px;
+    border-radius: 10px;
+
+}
+
+/*-------- aside nav end ------- */
+/* -----------Transfer grid styles start --------------- */
