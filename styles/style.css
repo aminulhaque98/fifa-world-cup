@@ -14,6 +14,10 @@ body {
 
 .containar {
     display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
 }
 
 /*---------- first section style start --------*/
@@ -76,10 +80,17 @@ body {
 
 /*-------- aside nav end ------- */
 /* -----------Transfer grid styles start --------------- */
+.movement {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
 .blog-image {
     width: 312px;
     height: 390px;
-    margin: 20px;
+    /* margin: 20px; */
     border: 1px solid#E8E8E8;
     border-radius: 10px;
 }
@@ -99,3 +110,5 @@ span {
     padding: 10px;
 
 }
+
+/*------------- Transfer grid styles end ---------- */
