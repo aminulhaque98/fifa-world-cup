@@ -152,7 +152,7 @@ footer {
 .target {
     text-align: center;
     font-size: 40px;
-    line-height: 220px;
+    line-height: 180px;
     color: #FFFFFF;
 }
 
@@ -176,15 +176,29 @@ ul li {
     margin: 0 29px;
 }
 
+ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #B9B9B9;
+}
+
 ul li a:hover {
     color: #DD0000;
     background-color: wheat;
     border-radius: 5px;
 }
 
-ul li a {
+/* ----------social-contacts icon--------- */
+.social-contacts {
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.social-contacts,
+span a {
+    color: lightcyan;
     text-decoration: none;
-    font-weight: 500;
     font-size: 20px;
-    color: #B9B9B9;
 }
