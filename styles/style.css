@@ -377,3 +377,37 @@ span i {
     }
 
 }
+
+/* ============media query fof large device========== */
+@media screen and (min-width:901px) and (max-width:1300px) {
+    .tablet-btn {
+        display: none;
+
+    }
+
+}
+
+
+/* ------second html styles file------- */
+.match-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.match-box {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.football-match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match-timing {
+    text-align: center;
+}
