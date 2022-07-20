@@ -1,9 +1,15 @@
 /* full page  */
 /* * {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
 } */
+/* body {
+    /*remove horizontal margins*/
+margin-left: 0;
+margin-right: : 0
+}
 
-
+*/
 /*--------- google font ------------ */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
@@ -13,6 +19,7 @@ body {
 }
 
 .containar {
+    /* width: 1200px; */
     display: flex;
     margin-top: 50px;
     margin-left: 100px;
@@ -83,8 +90,8 @@ body {
 .movement {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
 }
 
 .blog-image {
@@ -133,4 +140,41 @@ span {
     background-color: #DD0000;
     border: 1px solid;
     border-radius: 5px;
+}
+
+/* -------footer styles------ */
+footer {
+    /* width: 1600px; */
+    height: 444px;
+    background: #161616;
+}
+
+.target {
+    text-align: center;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+ul {
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 240px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
 }
