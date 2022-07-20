@@ -18,13 +18,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.containar {
+.flex-containar {
     /* width: 1200px; */
     display: flex;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    justify-content: space-around;
+    align-items: stretch;
+    justify-content: center;
 }
 
 /*---------- first section style start --------*/
@@ -65,6 +66,7 @@ body {
 
 /* ----------first section style end-------- */
 /* ---------aside nav start --------- */
+
 .side-nav {
     /* position: fixed; */
     width: 312px;
