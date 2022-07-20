@@ -31,8 +31,8 @@ body {
 /*---------- first section style start --------*/
 .best-player {
     display: flex;
-    width: 1321px;
-    height: 646px;
+    width: 100%;
+    height: 50%;
     justify-content: center;
     background-color: #161616;
     border-radius: 30px;
@@ -40,7 +40,7 @@ body {
 }
 
 .section-title {
-    width: 531px;
+    width: 50%;
     height: 424px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .favorite-player img {
-    width: 551px;
+    width: 100%px;
     height: 613px;
     padding-top: 32px;
 }
@@ -149,7 +149,7 @@ span {
 }
 
 /*------------- Transfer grid styles end ---------- */
-/* ----------tablet view button-------- */
+/* ----------tablet view button start-------- */
 .tablet-btn {
     display: flex;
     flex-direction: row;
@@ -172,11 +172,12 @@ span {
     border-radius: 5px;
 }
 
+/* ---------tablet view button end -------- */
 /* -------footer styles------ */
 footer {
-    /* width: 1600px; */
     height: 444px;
     background: #161616;
+    border-radius: 10px;
 }
 
 .target {
@@ -187,15 +188,13 @@ footer {
 }
 
 hr {
-    width: 1320px;
+    width: 100%;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 footer ul {
-    /* justify-content: center; */
     text-align: center;
-
 }
 
 footer ul li {
@@ -233,8 +232,76 @@ span a {
     font-size: 20px;
 }
 
-social-contacts,
+.social-contacts,
 span i {
     color: lightyellow;
     font-size: 30px;
+}
+
+/* ----------footer styles end ---------- */
+/*============ media query============= */
+@media screen and (max-width: 576px) {
+    .best-player {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+
+    .flex-containar {
+        flex-direction: column;
+
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .earth {
+        font-size: 10vw;
+    }
+
+    .section-title {
+        width: 100%;
+        height: 100%;
+    }
+
+    .favorite-player img {
+        width: 100%px;
+        height: 100%;
+
+    }
+
+    .side-nav {
+        background-color: white;
+    }
+
+    .movement {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer {
+        height: 100%;
+
+    }
+
+    .tablet-btn {
+        display: none;
+
+    }
+
+    .social-contacts,
+    span a {
+        font-size: 15px;
+    }
+
+    .social-contacts,
+    span i {
+        color: lightyellow;
+        font-size: 20px;
+
+    }
 }
