@@ -42,6 +42,7 @@ body {
 .section-title {
     width: 50%;
     height: 424px;
+
 }
 
 .earth {
@@ -49,12 +50,16 @@ body {
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+
+    animation: sliding 4s ease infinite;
+    animation-play-state: running;
 }
 
 .section-title p {
     color: #FFFFFF;
     font-size: 20px;
     line-height: 26px;
+
 }
 
 .favorite-player img {
@@ -68,13 +73,27 @@ body {
     height: 60px;
     background-color: #DD0000;
     border-radius: 5px;
+
 }
 
 .live-btm a {
     font-size: 25px;
     text-decoration: none;
     color: #FFFFFF;
+
 }
+
+@keyframes sliding {
+    form {
+        color: #ffffff;
+    }
+
+    to {
+        color: goldenrod;
+        text-shadow: 2px 2px limegreen;
+    }
+}
+
 
 /* ----------first section style end-------- */
 /* ---------aside nav start --------- */
@@ -262,6 +281,9 @@ span i {
 
     .earth {
         font-size: 10vw;
+
+        animation: sliding 4s ease infinite;
+        animation-play-state: running;
     }
 
     .section-title {
@@ -306,6 +328,14 @@ span i {
         font-size: 20px;
 
     }
+
+    /* second html file */
+    .match-details {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }
 
 /* ============media query fof medium device========== */
@@ -329,6 +359,9 @@ span i {
 
     .earth {
         font-size: 10vw;
+
+        animation: sliding 4s ease infinite;
+        animation-play-state: running;
     }
 
     .section-title {
@@ -375,6 +408,13 @@ span i {
         font-size: 30px;
 
     }
+
+    .match-details {
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
 
 }
 
